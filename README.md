@@ -7,3 +7,4 @@ record notes and lab for Computer Networking A Top-Down Approach
 [计算机网络-自顶向下方法](https://gaia.cs.umass.edu/kurose_ross/index.php)  
 
 ## Chapter 1 Intro
+Lab：[lab_Wireshark_Intro](https://github.com/YangLi0306/Computer-Networking-A-Top-Down-Approach/blob/main/Chapter_1_Introduction/lab_Wireshark_Intro.md)
