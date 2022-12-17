@@ -1,5 +1,5 @@
  # Lab Wireshark Intro
-**实验内容：** 学习熟悉使用Wireshark， 访问一个Web站点，捕获并检查在你的Web浏览器和Web服务器之间交换的协议报文。
+**实验内容：** 学习熟悉使用Wireshark， 访问一个Web站点，捕获并检查在你的Web浏览器和Web服务器之间交换的协议报文。  
 **实验文档：** Wireshark_Intro_v8.0.pdf
 
 **实验步骤：**  
