@@ -32,6 +32,7 @@
 1、打开Wireshark，访问一次http://gaia.cs.umass.edu/wireshark-labs/HTTP-wireshark-file2.html，再刷新一次，请求第二次
   抓包截图：  
   ![image](https://user-images.githubusercontent.com/58134113/208279006-3e150ed7-8531-4b8c-b476-5f21540ba42e.png)
+  
 2、查看报文，回答问题  
   第一次请求：  
 ![image](https://user-images.githubusercontent.com/58134113/208279060-1b7f7fd1-06f0-49fd-bdd2-ab076ce43ed5.png)
@@ -47,4 +48,44 @@
 - 服务器响应第二次HTTP GET返回的HTTP状态码和短语是什么？服务器是否显式返回文件的内容？解释？  
   **answer**：状态码：304，短语是：304 Not Modified，服务器没有显式返回文件的内容，因为文件后来没有被修改
   
-  未完待续！！！
+### 三、检索长文档
+**实验步骤：**
+1、打开Wireshark，访问http://gaia.cs.umass.edu/wireshark-labs/HTTP-wireshark-file3.html   
+  抓包截图：  
+![image](https://user-images.githubusercontent.com/58134113/208286846-b7a4dc45-ecde-497c-aa24-4351a47717c5.png)
+
+2、查看并回答问题
+- 您的浏览器发送了多少HTTP GET请求报文？跟踪中的哪个数据包编号包含权力法案的Get消息？  
+  **answer**：发送了1个HTTP GET请求报文，编号299
+- 跟踪中的哪个数据包编号包含与HTTP GET请求响应相关联的状态码和短语？  
+  **answer**：编号328包含与HTTP GET请求响应相关联的状态码和短语
+- 回复中的状态码和短语是什么？  
+  **answer**：状态码：200，短语：OK
+- 需要多少包含TCP段的数据才能承载单个HTTP响应的权利法案文本？  
+  **answer**：使用了3个TCP段，剩余的数据放在响应报文中
+  
+### 四、带有嵌入对象的HTML文档
+ **实验步骤：**
+1、打开Wireshark，访问http://gaia.cs.umass.edu/wireshark-labs/HTTP-wireshark-file4.html   
+  抓包截图：  
+![image](https://user-images.githubusercontent.com/58134113/208287242-39c44383-397c-4304-863c-622172c5450e.png)
+
+2、查看并回答问题
+- 您的浏览器发送了多少HTTP GET请求报文？这些GET请求发送到了哪些Internet地址？  
+  **answer**: 发送了3个HTTP GET请求报文，请求地址为：128.119.245.12，178.79.137.164
+- 你能分辨出你的浏览器是串行下载这两张图片，还是从这两个网站并行下载？解释？  
+  **answer**: 串行下载，第一个图片接收到之后才发送第二个图片的请求报文  
+ 
+ ### 五、HTTP认证
+ **实验步骤：**
+ 1、打开Wireshark，访问http://gaia.cs.umass.edu/wireshark-labs/protected_pages/HTTP-wireshark-file5.html  
+   抓包截图：  
+ ![image](https://user-images.githubusercontent.com/58134113/208287792-9c8b5a71-8683-4632-9af8-d6cdedb55397.png)
+ 
+ 2、 查看并回答问题  
+ - 服务器对来自浏览器的初始HTTP GET消息的响应（状态码和短语）是什么？  
+   **answer**：状态码：401，短语：Unauthorized
+ - 当您的浏览器第二次发送HTTP GET消息时，HTTP GET消息中包含哪些新字段？  
+   **answer**：Authorization: Basic d2lyZXNoYXJrLXN0dWRlbnRzOm5ldHdvcms=
+
+  
