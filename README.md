@@ -10,4 +10,4 @@ record notes and lab for Computer Networking A Top-Down Approach
 Lab：[lab_Wireshark_Intro](https://github.com/YangLi0306/Computer-Networking-A-Top-Down-Approach/blob/main/Chapter_1_Introduction/lab_Wireshark_Intro.md)
 
 ## Chapter 2 Application Layer  
-Lab：
+Lab：[lab_Wireshark_http](https://github.com/YangLi0306/Computer-Networking-A-Top-Down-Approach/blob/main/Chapter_2_Application%20Layer/lab_Wireshark_http.md), 
