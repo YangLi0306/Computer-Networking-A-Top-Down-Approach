@@ -1,6 +1,6 @@
 # Lab Wireshark DNS
 **实验内容**： 理解DNS  
-**实验文档**： Wireshark_DNS_v8.0.pdf  
+**实验文档**： [Wireshark_DNS_v8.0.pdf](http://www-net.cs.umass.edu/wireshark-labs/Wireshark_DNS_v8.0.pdf)  
 
 ### 一、nslookup  
 nslookup工具允许运行该工具的主机向任何指定的DNS服务器查询DNS记录。  
