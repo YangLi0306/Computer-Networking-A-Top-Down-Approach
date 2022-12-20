@@ -1,6 +1,6 @@
  # Lab Wireshark http
 **实验内容：** 使用Wireshark，探讨HTTP协议  
-**实验文档：** Wireshark_HTTP_v8.0.pdf  
+**实验文档：** [Wireshark_HTTP_v8.0.pdf](http://www-net.cs.umass.edu/wireshark-labs/Wireshark_HTTP_v8.0.pdf)  
 
 ### 一、基本HTTP GET/response交互
 **实验步骤：**   
