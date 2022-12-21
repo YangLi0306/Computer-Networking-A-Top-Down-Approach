@@ -13,5 +13,5 @@ ping client 实现见[UDPPingClient.py]()
 **服务端运行UDPPingServer.py: **  
 ![image](https://user-images.githubusercontent.com/58134113/208837876-76acbcc2-4754-4579-a1de-3ff55d78bce6.png)
 
-**客户端发出请求：  **  
+**客户端发出请求: **  
 ![image](https://user-images.githubusercontent.com/58134113/208837950-c5bc7ce0-8d83-46e2-aabc-682b10c3797c.png)
