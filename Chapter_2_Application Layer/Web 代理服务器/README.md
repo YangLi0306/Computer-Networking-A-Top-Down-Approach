@@ -3,7 +3,7 @@
 **实验环境：** Python3.8, Windows 10, Ubuntu18.04
 
 ### Web Proxy Server Code
-Web Proxy Server代码，实验文档中给出部分，按照要求补全，见[WebProxyServer.py](https://github.com/YangLi0306/Computer-Networking-A-Top-Down-Approach/blob/main/Chapter_2_Application%20Layer/Web%20%E4%BB%A3%E7%90%86%E6%9C%8D%E5%8A%A1%E5%99%A8/WebProxyServer.py.py)
+Web Proxy Server代码，实验文档中给出部分，按照要求补全，见[WebProxyServer.py](https://github.com/YangLi0306/Computer-Networking-A-Top-Down-Approach/blob/main/Chapter_2_Application%20Layer/Web%20%E4%BB%A3%E7%90%86%E6%9C%8D%E5%8A%A1%E5%99%A8/WebProxyServer.py)
 
 ### 结果展示
 用Windows主机浏览器发出请求，用虚拟机Ubuntu 18.04作为代理服务器
