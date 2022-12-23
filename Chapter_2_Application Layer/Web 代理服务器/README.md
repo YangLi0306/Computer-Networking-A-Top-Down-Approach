@@ -2,7 +2,7 @@
 
 Web	Proxy	Server
 
-192.168.134.128
+
 
 
 没有设置代理服务器，访问 http://gaia.cs.umass.edu/wireshark-labs/HTTP-wireshark-file1.html
