@@ -1,6 +1,5 @@
 # -*- coding = utf-8 -*-
 # @Time: 2022/12/23 11:47
-# @Author: Li Yang
 # @File: WebProxyServer.py
 # @Software: PyCharm
 
